@@ -25,6 +25,6 @@ WORKDIR /var/www/
 
 VOLUME ["/var/www/", "/var/lib/mysql/"]
 
-EXPOSE 80 , 433
+EXPOSE 80  433
 
 ENTRYPOINT ["/entrypoint.sh"]
